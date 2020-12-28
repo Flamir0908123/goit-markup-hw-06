@@ -251,7 +251,23 @@
                 <li class="footer_item"><a href="" class="footer_svg"><svg class="linkedin social_footer" width="20" height="20">
                     <use href="./symbol-defs.svg#icon-linkedin"></use>
                 </svg></a></li>
+                <div class="box_form_footer">
+                </li>
+
+                <p class="text_footer_modal">Подпишитесь на рассылку</p>
+                <form action="" >
+                    <label for="">
+                        <input type="text" class="text_footer_input" placeholder="E-mail">
+                        <button type="submit" class="modal_form_btn modal_form_btn_footer"> <span class="text_button_footer"> Подписаться </span><svg class="linkedin social_footer_telega" width="20"
+                                height="20">
+                                <use href="./symbol-defs.svg#icon-icon-send"></use>
+                            </svg></button>
+                    </label>
+                </form>
+                </li>
+                </div>
             </ul>
+        
         </div>
 
     </div>
@@ -260,7 +276,37 @@
 <div class="backdrop is-hidden" data-modal><div class="modal ">
     <button  type="button" class="close-btn" data-modal-close><svg class="close_btn_modal"  width="11" height="11">
         <use href="./symbol-defs.svg#icon-close"></use>
+        
     </svg></button>
+    <p class="text_modal">Оставьте свои данные, мы вам перезвоним</p>
+    <form action="#" class="modal_form">
+        <label class="modal_form_field">
+    <span class="text_modal_form">Имя </span>
+            <input type="text" name="user_name" class="modal_form_input"><svg class="modal_form_icon" width="12" height="12">
+                <use href="./symbol-defs.svg#icon-name"></use>
+            </svg>
+        </label>
+        <label  class="modal_form_field">
+        <span class="text_modal_form">Телефон</span>
+            <input type="tel" name="user_tel" class="modal_form_input"><svg class="modal_form_icon" width="12" height="12">
+                <use href="./symbol-defs.svg#icon-tel"></use>
+            </svg>
+        </label>
+        <label  class="modal_form_field">
+    <span class="text_modal_form">Почта</span>
+            <input type="text" name="user_mail" class="modal_form_input"><svg class="modal_form_icon" width="12" height="12">
+                <use href="./symbol-defs.svg#icon-mail"></use>
+            </svg>
+        </label>
+        <label  class="modal_form_field"><span class="text_modal_form">Комментарий</span>
+            <textarea class="modal_form_massage" name="user_massage" placeholder="Введите текст" ></textarea>
+        </label>
+        <input id="user_polisy" type="checkbox" name="user_policy" value="accept-polisy" class="modal_form_policy visually-hidden">
+        <label for="user_polisy" class="modal_form_policy_text"><svg class="modal_form_icon_checbox" width="11" height="8">
+            <use href="./symbol-defs.svg#icon-checbox"></use>
+        </svg><span class="text_checbox">Соглашаюсь с рассылкой и принимаю <a href="" class="link_modal">Условия договора</a></span></label>
+        <button type="submit" class="modal_form_btn">Отправить</button>
+    </form>
 </div></div>
 <script src="js/modal.js"></script>
 </body>
