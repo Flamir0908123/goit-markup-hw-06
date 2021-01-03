@@ -255,14 +255,15 @@
                 </li>
 
                 <p class="text_footer_modal">Подпишитесь на рассылку</p>
-                <form action="" >
-                    <label for="">
+                <form action="" style="display: flex; align-items: flex-end; margin-top: 20px;">
+                    <label for="" class="text_footer_input_labe">
                         <input type="text" class="text_footer_input" placeholder="E-mail">
-                        <button type="submit" class="modal_form_btn modal_form_btn_footer"> <span class="text_button_footer"> Подписаться </span><svg class="linkedin social_footer_telega" width="20"
-                                height="20">
-                                <use href="./symbol-defs.svg#icon-icon-send"></use>
-                            </svg></button>
+                        
                     </label>
+                    <button type="submit" class="modal_form_btn modal_form_btn_footer"> <span class="text_button_footer"> Подписаться
+                        </span><svg class="linkedin social_footer_telega" width="20" height="20">
+                            <use href="./symbol-defs.svg#icon-icon-send"></use>
+                        </svg></button>
                 </form>
                 </li>
                 </div>
@@ -298,7 +299,7 @@
                 <use href="./symbol-defs.svg#icon-mail"></use>
             </svg>
         </label>
-        <label  class="modal_form_field"><span class="text_modal_form">Комментарий</span>
+        <label class="modal_form_field"><span class="text_modal_form text_modal_form_textarea">Комментарий</span>
             <textarea class="modal_form_massage" name="user_massage" placeholder="Введите текст" ></textarea>
         </label>
         <input id="user_polisy" type="checkbox" name="user_policy" value="accept-polisy" class="modal_form_policy visually-hidden">
