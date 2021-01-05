@@ -668,6 +668,7 @@ ul {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
+  margin-top: 30px;
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
@@ -675,8 +676,8 @@ ul {
   border: none;
   height: 50px;
   width: 200px;
-  margin: auto;
-
+  margin-left: auto;
+  margin-right: auto;
   background: #2196f3;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -690,7 +691,7 @@ ul {
 .modal_form_icon_checbox {
   fill: #ffffff;
   position: absolute;
-  bottom: 131px;
+  bottom: 129px;
   left: 43px;
 }
 .text_footer_modal {
@@ -748,8 +749,15 @@ ul {
   color: gray;
 }
 .modal_form_policy_text {
-  margin-top: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
 }
 .text_footer_input_label {
   width: 358px;
+}
+.form_footer {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20px;
 }
