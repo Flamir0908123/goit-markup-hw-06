@@ -668,7 +668,7 @@ ul {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
-  margin-top: 30px;
+
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
@@ -750,6 +750,7 @@ ul {
 }
 .modal_form_policy_text {
   margin-top: 10px;
+  justify-content: center;
   display: flex;
   align-items: center;
 }
